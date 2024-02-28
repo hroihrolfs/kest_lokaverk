@@ -11,3 +11,6 @@
    næst var sudo resolvconf -u sem update-ar /etc/resolv.conf file og bætir domain ddp.is
    og að lokum er að breyta /etc/hosts með sudo vi og bæta við domain name:
    ![1 domainname_hostsfile](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/f647b3e5-97b9-4e19-bac7-199e00ce191a)
+
+2. Static ip á server1. Ég notaði sudo vi /etc/netplan til þess að slökkva á dhcp og setja static ip:
+3. ![2 static_ip](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/e2fd5f34-ab71-4011-98b4-f44dde529bdf)
