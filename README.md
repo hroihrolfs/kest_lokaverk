@@ -7,6 +7,8 @@
 
    b) breyta domainname með resolvconf bæta við /etc/resolvconf/resolv.conf.d/head og bæta við domain ddp.is.
    næst er update-að /etc/resolv.conf með sudo resolv.conf -u.
+   og að lokum breyta hosts file og bæta við domnname línunni:
+   /etc/hosts
    ![1 domainname-hostsfile](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/a8354ca7-0804-40b5-a3c9-501db8bd43af)
 
 
