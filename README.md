@@ -14,4 +14,4 @@
 
    
 3. Static ip á server1. Ég notaði sudo vi /etc/netplan til þess að slökkva á dhcp og setja static ip:
-![2 static_ip](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/e2fd5f34-ab71-4011-98b4-f44dde529bdf)
+![2 static_ip](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/5008f979-9d87-4804-b561-e6d4b4ce1dad)
