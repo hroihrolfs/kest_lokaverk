@@ -13,8 +13,10 @@
 
 
    
-3. Static ip á server1. Ég notaði sudo vi /etc/netplan til þess að slökkva á dhcp og setja static ip:
+2. Static ip á server1. Ég notaði sudo vi /etc/netplan til þess að slökkva á dhcp og setja static ip:
 ![2 static_ip](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/5008f979-9d87-4804-b561-e6d4b4ce1dad)
+
+-- -------------------------
 
 3. dhcp server confguration
    Byrja á því að downloada isc-dhcpd með command: sudo apt install isc-dhcp-server.
