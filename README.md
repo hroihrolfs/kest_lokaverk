@@ -53,3 +53,6 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
    þá var þetta komið
    ![4  dns virkar](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/c7a5a420-41c1-4c4a-9827-6e65b20607f1)
 
+-- -------------------------
+
+
