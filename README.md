@@ -15,6 +15,7 @@
 -- -------------------------
 2. Static ip á server1. Ég notaði sudo vi /etc/netplan til þess að slökkva á dhcp og setja static ip:
 ![2 static_ip](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/5008f979-9d87-4804-b561-e6d4b4ce1dad)
+bætti við dns server í skref 4.
 
 -- -------------------------
 
@@ -34,4 +35,21 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
 
 -- -------------------------
 
+4. installa og config a dns server on server1.
+
+   Byrja á því að installa bind 9 með: sudo apt install bind9
+
+   næst þarf að fara í /etc/bind/named.conf.local og bæta við "zone".
+   ![4  dns zone ](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/fa03e28a-8a47-49ac-9604-f8dc21a12eed)
+
+   svo var búið til file db.ddp.is og bætt við client1 og client2:
+   ![4  dns bind conf](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/247ae06e-573c-462e-8a20-b2756e894801)
+
+   þá þurfti bara að restarta með sudo systemctl restart bind9 til að það klárast.
+
+   seinasta var að breyta netplan til þess að bæta við dns server.
+   ![4  dns netplan](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/065a659c-0c3d-40c9-b44e-122f02720b91)
+
+   þá var þetta komið
+   ![4  dns virkar](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/c7a5a420-41c1-4c4a-9827-6e65b20607f1)
 
