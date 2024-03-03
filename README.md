@@ -108,7 +108,18 @@ sýna virkni:
 
   -- ---------------------------------------
 
-  9. 
+  11. SSH using Rsa keys.
+      byrja á að installa ssh server á server1: sudo at install openssh-server.
+      Næst þurfti að búa til key með keygen á client1 og 2: ssh-keygen -t rsa
+      ![11  keygen client1](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/12f6a606-0583-4ac3-a6e9-768a4a967585)
+
+      svo þurfti að copy-a lykilinn á serverinn með: ssh-copy-id ubuntu@192.168.100.10
+      ![11 copying key to server](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/b6a0efc0-9534-4f32-bdf1-a2d69643e2ea)
+
+      sýna að þetta virkar:
+      ![11  ssh virkni](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/6c80dec8-6650-4955-af7d-a388bd6667f9)
+
+      
 
 
 
