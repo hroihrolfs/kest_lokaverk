@@ -103,6 +103,7 @@ sýna virkni:
   server1:
   ![8  server1 date](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/6a4b6da4-9582-470e-bdb6-e5f6089da661)
   client1:
+  
   ![8  client1 date](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/dfc849c0-44d2-4cc4-96e6-45d2b6310546)
 
 
