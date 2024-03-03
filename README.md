@@ -108,6 +108,18 @@ sýna virkni:
 
   -- ---------------------------------------
 
+9. Syslog install and confiigure:
+    byrjaði á því að installa rsyslog með sudo install rsyslog
+
+   næst var að uncommnet-a udp og tcp línurnar og opna fyrir þær:
+   ![9  rsyslogconf](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/c1b1feb4-8d2e-4ff0-9194-34b58bd433c4)
+
+   næst var að breyta í client endanum og bæta við *.*@192.168.100.10 til þess að senda öll logs frá client1 og 2 á serverinn. og þá var það byrjað að senda á server1 öll logs (náði ekki að breyta í proactive management og monitoring):
+      
+![9  client1 rsyslog](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/cfabe0cd-7b3f-47fe-a990-f1bfcfdabb8d)
+
+  -- ----------------------------------------
+
   11. SSH using Rsa keys.
       byrja á að installa ssh server á server1: sudo at install openssh-server.
       Næst þurfti að búa til key með keygen á client1 og 2: ssh-keygen -t rsa
