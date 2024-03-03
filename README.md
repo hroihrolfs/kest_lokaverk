@@ -64,6 +64,13 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
 
 -- -------------------------
 
+6. sleppti 6.
+
+-- -------------------------
+
+7. Weekly backups:
+   
+
 
 
 
