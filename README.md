@@ -74,7 +74,8 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
    svo þurfti að breyta permission í excecutable með sudo chmod +x backup.sh.
 
    að lokum þurfit að breyta crontab file með crontab -e og bæta við:
-   ![7 crontab file](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/031aacd2-83a8-44ba-9542-8a82b82b69ba)
+   ![7 crontabfile nytt](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/43072d63-8701-40fe-acc3-4127e6ae5863)
+
 
    hérna er dæmi um að backup.sh virkar
    ![7  eftir að keyra backup sh](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/e6fb27cb-92b2-4d26-b861-94204dd6c5d3)
