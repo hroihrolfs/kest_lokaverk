@@ -55,4 +55,16 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
 
 -- -------------------------
 
+5. create users byrja á að búa til directory með: mkdir scripts
+   næst var að búa til script með: sudo vi create_users.sh og bæta þessu við:
+   ![5  useradd script](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/ea9be938-0b28-4fa6-84bc-b96333bce58e)
+
+   svo þurfti að nota chmod +x create_users.sh.
+   búa til csv skrá með öllum users sem heitir users.csv.
+
+-- -------------------------
+
+
+
+
 
