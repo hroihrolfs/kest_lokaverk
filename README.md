@@ -33,6 +33,9 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
 
 ![3 client3 dhcp virkar](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/eae173a3-0072-41e4-a736-dc27e5a053f1)
 
+sýna virkni:
+
+
 -- -------------------------
 
 4. installa og config a dns server on server1.
@@ -95,6 +98,13 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
   ![8 ntp client conf](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/ba0fa313-8725-47b7-84f3-c25bfbf3dd90)
 
   sama var gert hjá client2
+
+  sjá virkni:
+  server1:
+  ![8  server1 date](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/6a4b6da4-9582-470e-bdb6-e5f6089da661)
+  client1:
+  ![8  client1 date](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/dfc849c0-44d2-4cc4-96e6-45d2b6310546)
+
 
 
 
