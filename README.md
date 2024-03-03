@@ -68,10 +68,16 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
 
 -- -------------------------
 
-7. Weekly backups:
-   
+7. Weekly backups: byrja á að búa til script sem fer í gegnum öll home-dir til þess að taka backup af hverju og einu:
+   ![7 backupscripts](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/30039e73-5ba9-429b-a23b-b7fe73bcdbc8)
 
+   svo þurfti að breyta permission í excecutable með sudo chmod +x backup.sh.
 
+   að lokum þurfit að breyta crontab file með crontab -e og bæta við:
+   ![7 crontab file](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/031aacd2-83a8-44ba-9542-8a82b82b69ba)
+
+   hérna er dæmi um að backup.sh virkar
+   ![7  eftir að keyra backup sh](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/e6fb27cb-92b2-4d26-b861-94204dd6c5d3)
 
 
 
