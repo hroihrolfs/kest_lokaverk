@@ -119,7 +119,10 @@ sýna virkni:
       sýna að þetta virkar:
       ![11  ssh virkni](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/6c80dec8-6650-4955-af7d-a388bd6667f9)
 
-      
+12. Það eina sem er opið á server1 er 22/tcp fyrir ssh og 53/tcp fyrir domain allt hitt var lokað:
+    notaði nmap 192.168.100.10 til þess að kíkja hvað væri opið:
+    ![13  oll lokud](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/6753006b-bae5-4c8a-9319-28f75df57180)
+
 
 
 
