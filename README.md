@@ -80,5 +80,23 @@ sama í client2 með því að breyta sudo vi /etc/sysconfig/network-scripts/ifc
    hérna er dæmi um að backup.sh virkar
    ![7  eftir að keyra backup sh](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/e6fb27cb-92b2-4d26-b861-94204dd6c5d3)
 
+-- -----------------------------
+
+8. install and config ntp: byrja á að update-a server1 og installa ntp með sudo apt install ntp.
+
+  næst þarf að fara í /etc/ntp.conf og bæta við restrict (sést á mynd): 
+  ![8  server ntpconf](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/90a9effa-86ef-4926-a409-52c03f3ca580)
+
+  svo þurfti að restarta ntp með sudo systemctl restart ntp.
+
+  client1 og 2 voru þannig að downloada ntp með sudo apt install ntp.
+  fara í sud vi /etc/ntp.conf og bæta við ntp server og bæta við restrict línu: 
+  
+  ![8 ntp client conf](https://github.com/hroihrolfs/kest_lokaverk/assets/89214090/ba0fa313-8725-47b7-84f3-c25bfbf3dd90)
+
+  sama var gert hjá client2
+
+
+
 
 
